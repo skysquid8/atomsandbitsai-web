@@ -69,7 +69,69 @@
   </style>
 </head>
 <body>
-  <img src="assets/logo.png" alt="Atoms &amp; Bits AI" class="logo">
+  <svg class="logo" viewBox="0 0 200 260" xmlns="http://www.w3.org/2000/svg" aria-label="Atoms &amp; Bits AI logo">
+    <defs>
+      <linearGradient id="trunkGrad" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#2ecc71"/>
+        <stop offset="100%" stop-color="#2c3e50"/>
+      </linearGradient>
+    </defs>
+    <!-- Roots -->
+    <g stroke="#3d5a50" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.7">
+      <path d="M100 165 Q85 185 60 210 Q45 225 30 240"/>
+      <path d="M100 165 Q90 190 75 215 Q65 230 55 245"/>
+      <path d="M100 165 Q95 195 90 220 Q88 235 82 250"/>
+      <path d="M100 165 Q100 195 100 225 Q100 240 100 255"/>
+      <path d="M100 165 Q105 195 110 220 Q112 235 118 250"/>
+      <path d="M100 165 Q110 190 125 215 Q135 230 145 245"/>
+      <path d="M100 165 Q115 185 140 210 Q155 225 170 240"/>
+      <path d="M60 210 Q50 220 40 225"/>
+      <path d="M140 210 Q150 220 160 225"/>
+      <path d="M75 215 Q68 225 60 235"/>
+      <path d="M125 215 Q132 225 140 235"/>
+    </g>
+    <!-- Trunk -->
+    <path d="M100 165 L100 105" stroke="url(#trunkGrad)" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <!-- Brain/canopy branches -->
+    <g stroke="#2ecc71" stroke-width="2.5" fill="none" stroke-linecap="round">
+      <!-- Left branches -->
+      <path d="M100 105 Q85 95 75 80 Q65 65 60 50"/>
+      <path d="M75 80 Q65 78 55 70 Q45 62 42 50"/>
+      <path d="M60 50 Q55 40 52 30 Q55 22 62 20"/>
+      <path d="M42 50 Q38 40 40 32 Q45 25 52 28"/>
+      <path d="M100 105 Q90 90 85 75 Q82 60 85 48"/>
+      <path d="M85 48 Q88 38 92 30 Q95 25 100 28"/>
+      <!-- Right branches -->
+      <path d="M100 105 Q115 95 125 80 Q135 65 140 50"/>
+      <path d="M125 80 Q135 78 145 70 Q155 62 158 50"/>
+      <path d="M140 50 Q145 40 148 30 Q145 22 138 20"/>
+      <path d="M158 50 Q162 40 160 32 Q155 25 148 28"/>
+      <path d="M100 105 Q110 90 115 75 Q118 60 115 48"/>
+      <path d="M115 48 Q112 38 108 30 Q105 25 100 28"/>
+      <!-- Top connections (brain curve) -->
+      <path d="M62 20 Q75 12 88 18 Q95 22 100 28"/>
+      <path d="M138 20 Q125 12 112 18 Q105 22 100 28"/>
+      <path d="M52 28 Q60 18 70 22 Q80 26 85 35"/>
+      <path d="M148 28 Q140 18 130 22 Q120 26 115 35"/>
+    </g>
+    <!-- Circuit nodes -->
+    <g fill="#2ecc71">
+      <circle cx="60" cy="50" r="3.5"/>
+      <circle cx="42" cy="50" r="3.5"/>
+      <circle cx="75" cy="80" r="3.5"/>
+      <circle cx="85" cy="48" r="3.5"/>
+      <circle cx="62" cy="20" r="3.5"/>
+      <circle cx="52" cy="28" r="3.5"/>
+      <circle cx="100" cy="28" r="4"/>
+      <circle cx="140" cy="50" r="3.5"/>
+      <circle cx="158" cy="50" r="3.5"/>
+      <circle cx="125" cy="80" r="3.5"/>
+      <circle cx="115" cy="48" r="3.5"/>
+      <circle cx="138" cy="20" r="3.5"/>
+      <circle cx="148" cy="28" r="3.5"/>
+      <circle cx="100" cy="105" r="4"/>
+    </g>
+  </svg>
   <h1>Atoms <span>&amp;</span> Bits AI</h1>
   <p class="tagline">Where the physical world meets intelligent systems. We build AI solutions grounded in real-world science.</p>
   <a href="mailto:hello@atomsandbitsai.com" class="cta">Get in Touch</a>
